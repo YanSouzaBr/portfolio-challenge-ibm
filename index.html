@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4544b1d93f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <header>
+
+            <div class="contact">
+                <h1>Jane Doe</h1>
+                <i style="color: white;" class="fa-regular fa-envelope">  jdoe@jeemail.com</i> 
+                <i style="color: white;" class="fa-solid fa-phone">  +13456764598</i> 
+            </div>
+
+            <div class="links">
+                <a href="#">About me</a>
+                <a href="#">Skills</a>
+                <a href="#">Projects</a>
+                <a href="#">Recommendations</a>
+            </div>
+        </header>
+    </div>
+
+    <div class="main">
+
+            <div>
+                <img class="jane" width="300px" src="jane.jpg" alt="Jane, a 3D  doll">
+            </div>
+            <div class="about-me">
+            <h1>Hi, I'm Jane Doe! 👋</h1>
+            <p>I am a full stack developer with 2 years of experience in both application <br/>
+            and presentation layers. I have worked on aplications and microservices <br>
+            deployed on IBM Cloud. I am an avid user of IBM Watson Services and have <br>
+            worked on Watson Assistant, NLU, Sentiment analyzer to name a few.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <section>
+            <h1>Skills</h1>
+
+            <div class="skills">
+                <div class="cards">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                    <p>2 years experience</p>
+                </div>
+                <div class="cards">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                    <p>1.5 years experience</p>
+                </div>
+                <div class="cards">
+                    <i class="fa-brands fa-java"></i>
+                    <p>Java</p>
+                    <p>0.5 years experience</p>
+                </div>
+                <div class="cards">
+                    <i class="fa-brands fa-react"></i>
+                    <p>React</p>
+                    <p>1 year experience</p>
+                </div> 
+                <div class="cards">
+                    <i class="fa-brands fa-node"></i>
+                    <p>Node.js</p>
+                    <p>1 year experience</p>
+                </div>
+                <div class="cards">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                    <p>2 years experience</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="projects">
+        <section>
+
+            <h1>Projects</h1>
+            <h2>Chatbot</h2>
+            <ul>
+                <li>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</li>
+            </ul>
+            <hr>
+            <h2>Sentiment Analyzer</h2>
+            <ul>
+                <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+            </ul>
+            <hr>
+            <h2>Fashion Website</h2>
+            <ul>
+                <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for <br>
+                payment gateway</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="recommendations">
+        <h1>Recommendations</h1>
+        <section class="rec-section">
+            <div class="rec-cards"><span class="purple">" </span>Jane is a very quick learner and quickly <br>
+            grasps key concepts of Web Development.
+            She got a great attitude & she is an
+            excellent team player. She has a curious
+            mind and asks the right question. She
+            takes initiative within a team and has
+            potentials to lead the team.
+        <span class="purple">"</span></div>
+            <div class="rec-cards"><span class="purple">" </span>
+                Working with Jane has been an awesome
+                experience. She is highly knowledgable
+                and always goes the extra step to make
+                sure everything is right. For any future
+                projects that need her expertise I would
+                definetely want to work with her again
+            <span class="purple">"</span></div>
+            <div class="rec-cards"><span class="purple">" </span>
+                I had worked along with Jane during the
+                initial phase of our venture which needed
+                Web development. She is a committed
+                resource who has in depth knowledge
+                about the domain. She will be an asset for
+                any organization!
+            <span class="purple">"</span></div>
+
+        </section>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <h2>Leave a recommendation</h2>
+            <form>
+                <input type="text" placeholder="Name (Optional)"/>
+                <textarea placeholder="Message"></textarea>
+            </form>
+            <button id="btn">Submit</button>
+        </footer>
+        
+
+    </div>
+    <i id="scrollToTopBtn" class="fa-solid fa-arrow-up"></i>
+
+    <script src="index.js"></script>
+</body>
+</html>
